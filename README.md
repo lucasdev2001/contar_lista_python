@@ -26,3 +26,26 @@ print(listaItemsLengt)
 
 #4
 ```
+
+A funação len() também funciona para dicionários e strings, observe:
+
+```
+dicionario = {
+    "nome": "Lucas",
+    "profissao": "arquiteto de software",
+    "idade": 21,
+    "emojiFavorito": "🦁",
+    "animalFavorito": "🐜"
+}
+
+
+frase = "Se as coisas são verdadeiras, estão sempre onde devem estar. -C. S. Lewis"
+
+print(len(dicionario))
+
+#5
+
+print(len(frase))
+
+#73
+```
